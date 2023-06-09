@@ -1,0 +1,3 @@
+[submodule "ML-Danbooru-webui"]
+	path = ML-Danbooru-webui
+	url = https://github.com/7eu7d7/ML-Danbooru-webui.git
