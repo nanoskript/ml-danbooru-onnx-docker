@@ -1,8 +1,8 @@
 # ml-danbooru-onnx-docker
 
 [Docker Hub](https://hub.docker.com/r/nanoskript/ml-danbooru)
-| [API documentation](https://ml-danbooru.nanoskript.dev/docs)
-| [Web tool](https://nanoskript.dev/tools/ml-danbooru/)
+| [API documentation](https://ml-danbooru.nsk.sh/docs)
+| [Web tool](https://nsk.sh/tools/ml-danbooru/)
 
 ONNX model and Docker service for <https://github.com/7eu7d7/ML-Danbooru>.
 

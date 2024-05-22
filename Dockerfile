@@ -23,7 +23,5 @@ COPY --from=builder ./vendor ./vendor
 RUN pdm sync -G server && pdm cache clear
 
 ADD ./server.py ./
+CMD pdm run uvicorn --host 0.0.0.0 --port $PORT server:app
 
-CMD ["pdm", "run", "uvicorn", \
-	"--host", "0.0.0.0", "--port", "$PORT", \
-	"server:app"]
